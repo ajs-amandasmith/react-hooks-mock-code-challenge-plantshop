@@ -13,8 +13,6 @@ function App() {
 
 export default App;
 
-// I can search for plants by their name and see a filtered list of plants.
-
 // Advanced Deliverables
 // These deliverables are not required to pass the code challenge, but if you have the extra time, or even after the code challenge, they are a great way to stretch your skills.
 
