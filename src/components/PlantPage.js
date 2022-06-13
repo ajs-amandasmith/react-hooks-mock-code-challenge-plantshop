@@ -14,9 +14,13 @@ function PlantPage() {
     []
   )
 
+  function submitNewPlant(newPlant) {
+    setPlants([...plants, newPlant])
+  }
+
   return (
     <main>
-      <NewPlantForm />
+      <NewPlantForm submitNewPlant={submitNewPlant} />
       <Search />
       <PlantList plants={plants} />
     </main>
